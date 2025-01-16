@@ -1,0 +1,83 @@
+body {
+    background-image: url(/img/1540001.webp);
+    background-size: cover;
+    text-align: center;
+}
+
+input {
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 20px;
+    border: none;
+}
+
+button {
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+
+.city {
+    display: none;
+}
+
+.city-active {
+    width: 370px;
+    height: 350px;
+    background-color: hsla(0, 0%, 98%, .85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 21px;
+    opacity: 0.7;
+    margin-top: 40px;
+}
+
+
+
+.h2 {
+    font-size: 35px;
+}
+
+.h1 {
+    font-size: 20px;
+    border: 1px solid black;
+    max-width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 100%;
+    background-color: #ff8c00;
+    border: none;
+    color: white;
+}
+
+
+.h3 {
+    font-size: 50px;
+}
+
+.cardlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.flag {
+    font-size: 1px;
+}
